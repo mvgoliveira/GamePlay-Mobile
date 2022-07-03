@@ -1,11 +1,11 @@
 import React from "react";
+import { useNavigation } from "@react-navigation/native";
 
 import { 
     Image,
     Text, 
     View 
 } from "react-native";
-import { useNavigation } from "@react-navigation/native";
 
 import { styles } from "./styles";
 
@@ -16,7 +16,6 @@ export function SignIn() {
     const navigation = useNavigation();
 
     function handleSignIn() {
-        console.log("EXECUTEI");
         navigation.navigate('Home');
     }
 

@@ -8,7 +8,6 @@ export const styles = StyleSheet.create({
     },
     user: {
         flexDirection: "row",
-
     },
     greeting: {
         fontFamily: theme.fonts.title500,
